@@ -1,0 +1,1 @@
+web: gunicorn django-social-app.wsgi
