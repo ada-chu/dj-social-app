@@ -52,7 +52,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'social_book.urls'
+ROOT_URLCONF = 'django-social-app.urls'
 
 TEMPLATES = [
     {
@@ -70,7 +70,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'social_book.wsgi.application'
+WSGI_APPLICATION = 'django-social-app.wsgi.application'
 
 
 # Database
